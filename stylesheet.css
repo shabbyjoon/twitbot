@@ -1,0 +1,111 @@
+*:focus {
+	outline: none;
+}
+body {
+	background-color: #00e6ac;
+}
+.logo {
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	justify-content: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 8em;
+	letter-spacing: 20px;
+	-moz-user-select: none;
+   -webkit-user-select: none;
+
+}
+
+.container {
+	border: 1px solid black;
+
+}
+
+
+
+.feed {
+	/*justify-content: left;*/
+	/*text-align: left;*/
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px #F2FBFE;
+	background: white;
+	margin-top: 100px;
+	overflow: auto;
+	background-color: #F2FBFE;
+	/*text-shadow: 1px 1px 1px;*/
+	font-family: 'Lato', sans-serif;
+	padding: 10px 20px 10px 20px;
+	border-radius: 15px;
+}
+.feed .tweet {
+	padding: 10px 10px 20px 20px;
+	border: 1px;
+	background: white;
+	border-radius: 15px;
+	margin-bottom: 5px;
+	font-family: 'Lato', sans-serif;
+	
+}
+.feed .tweet:hover {
+/*	background-color: #D4DCDE;
+*/	background-color: #F4F6F9;
+}
+
+.feed .tweet .user:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.feed .tweet .user {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.feed .tweet .message {
+	text-align: left;
+	margin-top: : 10px;
+	margin-bottom: 10px;
+}
+
+.feed .tweet .time {
+	color: #C9CCD0;
+}
+
+
+.tweets {
+	border: 1px solid black;
+
+}
+.showMoreTweets:hover {
+	background-color: #7087A5;
+	cursor: pointer;
+}
+
+.showMoreTweets {
+  background: #cc99ff;
+  background-image: -webkit-linear-gradient(top, #cc99ff, #2980b9);
+  border-radius: 28px;
+  font-family: 'Lato', sans-serif;
+  color: #f7f9fa;
+  font-size: 16px;
+  padding: 5px 11px 5px 10px;
+  text-decoration: none;
+  text-align: center;
+  margin: -200px -50px; 
+  position: relative;
+  top:70%; 
+  left:48%;
+  justify-content: center;
+  
+
+
+	
+}
+
+
+
+
