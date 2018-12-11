@@ -1,2 +1,4 @@
 # twittler
-This is a project I completed as a student at [hackreactor](http://hackreactor.com). This project was worked on with a pair.
+
+## Description
+This application displays "tweet-like" messages in sequence, with the ability to toggle between user tweets and filter tweets.
